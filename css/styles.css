@@ -15,6 +15,7 @@ body{
 }
 .container-fluid img{
     width: 3rem;
+    margin-left: 3rem;
 }
 h1,h2, h3, h4, p{
     font-family: 'Courier New', Courier, monospace;
@@ -230,13 +231,54 @@ header{
         right: 7rem;
         font-size: 4.5rem;
     }
-    
 } 
 /*Tablet LandScape*/
-@media (min-width: 769px) and (max-width: 1021px){
-
+@media (min-width: 768px){
+    .home_page{
+        padding: 0 2rem;
+    }
+    .full_stack{
+        width: 80%;
+        margin: 3rem auto;
+    }
+    .watermark_full::after{
+        top: 17rem;
+        right: 11rem;
+        font-size: 5rem;
+    }
+    .diseno h2{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .diseno p{
+        font-size: 2rem;
+    }
+    .diseno a{
+        font-size: 1.5rem;
+    }
+    .present{
+        font-size: 2.5rem;
+    }
+    .historia{
+        font-size: 2rem;
+    }
+    .menu_footer{
+        margin-bottom: 5rem !important;
+    }
+    .menu_footer ul{
+        list-style-type: none;
+    }
+    .menu_footer li{
+        float: left;
+    }
+    .menu_footer a{
+        padding: 0 1rem;
+    }
+    .derechos p{
+        font-size: 1.5rem !important;
+    }
 }
 /*Desktop*/
-@media (min-width: 1022px) and (max-width: 1400px){
+@media (min-width: 1022px){
 
 }
