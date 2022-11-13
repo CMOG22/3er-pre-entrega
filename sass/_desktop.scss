@@ -157,4 +157,13 @@
         font-size: 1.1rem;
         text-align: justify;
     }
+    /*servicios*/
+    .servicios{
+        padding: 5rem 2rem 0;
+        margin: 0 5rem;
+    }
+    .servicios_fr{
+        grid-template-columns: 70% 30%;
+        align-items: center;
+    }
 }

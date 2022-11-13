@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMOG - Servicios</title>
+    <!--
     <link rel="preload" href="../css/styles.css" as="style">
     <link rel="stylesheet" href="../css/styles.css">
+    -->
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <!--Boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="preload" href="../sass/main.css" as="style">
+    <link rel="stylesheet" href="../sass/main.css">
 </head>
 <body>
     <header>
@@ -72,22 +76,32 @@
         }
     </script>
     <main class="servicios">
-        <h1>Servicios</h1>
-        <div>
+        <section>
+            <h1>Servicios</h1>
             <p>Realizo servicios de Tecnología de la Información (TI) ya sea de forma presencial como remota</p>
-            <h2>Desarrollo Web</h2>
-            <p>Creación de páginas web con diseños e ideas únicas.</p>
-            <p>Implementación de SEO para mejorar los resultados en los buscadores Web.</p>
-            <div class="webdeveloper">
-                <img src="../img/webDeveloper.jpg" alt="Web Developer"
-            </div>
-
-            <h2>Programación de Aplicaciones Moviles</h2>
-            <p>Pasa tu web a aplicación móvil para estar más cerca de sus clientes.</p>
-            <div class="webdeveloper">
-                <img src="../img/app developer.jpg" alt="">
-            </div>
-            <h2>Soporte técnico</h2>
+        </section>
+        <div class="servicios_fr">
+            <section>
+                <h2>Desarrollo Web</h2>
+                <p>Creación de páginas web con diseños e ideas únicas.</p>
+                <p>Implementación de SEO para mejorar los resultados en los buscadores Web.</p>
+            </section>
+            <section>
+                <div class="webdeveloper">
+                    <img src="../img/webDeveloper.jpg" alt="Web Developer"
+                </div>
+            </section>
+            <section>
+                <h2>Programación de Aplicaciones Moviles</h2>
+                <p>Pasa tu web a aplicación móvil para estar más cerca de sus clientes.</p>
+            </section>
+            <section>
+                <div class="webdeveloper">
+                    <img src="../img/app developer.jpg" alt="">
+                </div>
+            </section>
+            <section>
+                <h2>Soporte técnico</h2>
             <p>Realización de soporte a equipos de cómputo, como son:</p>
             <ul>
                 <li>Reparación</li>
@@ -95,9 +109,17 @@
                 <li>Instalación de programas</li>
                 <li>Actualización de Sistema Operativo</li>
             </ul>
-            <div class="webdeveloper">
-                <img src="../img/support.jpg" alt="">
-            </div>
+            </section>
+            <section>
+                <div class="webdeveloper">
+                    <img src="../img/support.jpg" alt="">
+                </div>
+            </section>
+        </div>
+        
+            
+            
+            
         </div>
     </main>
     <footer class="footer_section">

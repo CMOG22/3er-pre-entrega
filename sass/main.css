@@ -271,6 +271,24 @@ header {
   margin-top: 2rem;
 }
 
+/*servicios*/
+.servicios {
+  padding: 5rem 1rem 0rem;
+  background-color: rgba(37, 38, 42, 0.8);
+}
+.servicios h2 {
+  text-align: center;
+}
+.servicios li {
+  color: white;
+  list-style-type: square;
+}
+
+.webdeveloper img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 481px) {
   .img_full {
     text-align: center;
@@ -294,6 +312,13 @@ header {
   }
   .menu_footer a {
     padding: 0 1rem;
+  }
+  /*servicios*/
+  .servicios_fr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 1.3rem;
+         column-gap: 1.3rem;
   }
 }
 @media (min-width: 768px) {
@@ -331,6 +356,7 @@ header {
   .derechos p {
     font-size: 1.5rem !important;
   }
+  /*servicios*/
 }
 @media (min-width: 1021px) {
   .navbar-nav {
@@ -488,5 +514,14 @@ header {
   .historia {
     font-size: 1.1rem;
     text-align: justify;
+  }
+  /*servicios*/
+  .servicios {
+    padding: 5rem 2rem 0;
+    margin: 0 5rem;
+  }
+  .servicios_fr {
+    grid-template-columns: 70% 30%;
+    align-items: center;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -168,3 +168,21 @@
 .historia{
     margin-top: 2rem;
 }
+/*servicios*/
+.servicios{
+    padding: 5rem 1rem 0rem;
+    background-color: $fondo_body;
+    h2{
+        text-align: center;
+    }
+    li{
+        color: $blanco;
+        list-style-type: square;
+    }
+}
+.webdeveloper{
+    img{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
