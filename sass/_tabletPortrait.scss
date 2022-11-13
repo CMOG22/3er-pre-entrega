@@ -28,4 +28,8 @@
         grid-template-columns: 1fr 1fr;
         column-gap: 1.3rem;
     }
+    /*proyectos*/
+    .wordpress, .front{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 } 
