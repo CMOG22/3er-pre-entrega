@@ -311,3 +311,57 @@ th, td{
 .formacion_ano, .formacion_doc{
     font-size: 1.3rem;
 }
+/*contacto*/
+.container{
+    display: flex !important;
+    justify-content: center !important;
+    margin-left: 2rem !important;
+    width: 90% !important;
+    max-width: 90% !important;
+}
+.contacto{
+    padding: 5rem 1rem 0;
+    background-color: $fondo_body;
+}
+.contac{
+    display: flex;
+    justify-content: space-around;
+}
+.col iframe{
+    width: 100%;
+}
+label{
+    color: $blanco;
+    margin-left: 1rem;
+}
+input[type=text], select, input[type=tel], input[type=email],textarea{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize:vertical !important;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+}
+input[type=checkbox]{
+    margin-left: -4rem;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+input[type=submit]{
+    background-color: $verde;
+    border-radius: 10px;
+    width: 10rem;
+    height: 2.5rem;
+    font-weight: bold;
+
+}
+label{
+    color: white;
+}
