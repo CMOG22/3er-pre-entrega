@@ -4,7 +4,19 @@ $fondo_body: rgba(37, 38, 42, 0.8);
 $fondo_menu: rgba(37,38,42,1);
 $blanco: white;
 $border: 1px solid red;
-
+/*scrollbar*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: $fondo;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $verde; 
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #2e6d4d88;
+}
 /*logo*/
 .container-fluid{
     img{
