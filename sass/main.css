@@ -88,6 +88,12 @@ header {
   background-color: rgba(37, 38, 42, 0.8) !important;
 }
 
+.arrow-top {
+  position: fixed;
+  top: 90%;
+  right: 5%;
+}
+
 /*menu*/
 .navbar-nav {
   padding-top: 1rem !important;
