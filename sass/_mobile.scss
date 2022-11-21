@@ -128,20 +128,7 @@
 .img_full img{
     width: 100%;
 }
-.watermark_full{
-    position: relative;
-}
-.watermark_full::after{
-    content: 'Full Stack';
-    font-weight: bold;
-    position:absolute;
-    top: 9rem;
-    right: 5.5rem;
-    opacity: 0.9;
-    color: black;
-    font-size: 2.5rem;
-    -webkit-text-stroke: 2px white;
-}
+
 .diseno{
     h2{
         text-align: center;

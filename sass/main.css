@@ -228,22 +228,6 @@ header {
   width: 100%;
 }
 
-.watermark_full {
-  position: relative;
-}
-
-.watermark_full::after {
-  content: "Full Stack";
-  font-weight: bold;
-  position: absolute;
-  top: 9rem;
-  right: 5.5rem;
-  opacity: 0.9;
-  color: black;
-  font-size: 2.5rem;
-  -webkit-text-stroke: 2px white;
-}
-
 .diseno h2 {
   text-align: center;
 }
@@ -511,11 +495,6 @@ label {
   .img_full img {
     width: 50%;
   }
-  .watermark_full::after {
-    top: 8.5rem;
-    right: 17rem;
-    font-size: 2.5rem;
-  }
   .menu_footer {
     margin-bottom: 5rem !important;
   }
@@ -552,11 +531,6 @@ label {
   }
   .img_full img {
     width: 100%;
-  }
-  .watermark_full::after {
-    top: 17rem;
-    right: 11rem;
-    font-size: 5rem;
   }
   .diseno h2 {
     text-align: center;
@@ -690,11 +664,6 @@ label {
   }
   .chat {
     padding-top: 2rem !important;
-  }
-  .watermark_full::after {
-    font-size: 4.5rem;
-    top: 12rem;
-    right: 6.5rem;
   }
   .fr2_2 {
     background-color: rgba(37, 38, 42, 0.7);
