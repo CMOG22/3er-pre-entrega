@@ -262,6 +262,15 @@ header {
   margin-bottom: 2rem;
 }
 
+.diseno {
+  background-color: #2D2E32;
+  width: 95%;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 15px;
+  box-shadow: 0.3rem 0.3rem rgba(255, 255, 255, 0.5);
+}
+
 .present {
   text-align: center;
   font-size: 2rem;
